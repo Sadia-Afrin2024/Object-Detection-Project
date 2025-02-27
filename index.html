@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Ditector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Identify the Object</h1>
+        <p>Upload an image, & the AI will detect objects in it!</p>
+        <input type="file" name="" id="image-upload" accept="image/*">
+        <br>
+        <canvas id="canvas" width="400" height="400"></canvas>
+        <div id="output">Upload an image to see detected object.</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script src="script.js"></script>
+</body>
+</html>

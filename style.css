@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background: #2c2c2c; 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    max-width: 500px;
+    transition: 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #f5b971;
+    font-size: 26px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+h1:hover {
+    color: #ffa14a;
+}
+
+p {
+    color: #bbbbbb;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ff9f43; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="file"]:hover {
+    background-color: #ff6b2f;
+    transform: scale(1.05);
+    box-shadow: 0 3px 10px rgba(255, 111, 97, 0.6);
+}
+
+canvas {
+    border: 2px solid #ff9f43;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    display: block;
+    margin: 0 auto;
+}
+
+#output {
+    margin-top: 15px;
+    color: #aaaaaa;
+    font-size: 14px;
+    font-style: italic;
+    transition: 0.3s;
+}
+
+#output:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}
